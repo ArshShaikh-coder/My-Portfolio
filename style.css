@@ -121,28 +121,43 @@ margin: 5px;
             background-color: #01011a;
         height: 140px;
         width: 170%;
+
          }
+         footer{
+            background-color:#333;
+            height: 140px;
+            justify-content: space-around;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 252px;
+            justify-content: space-around;
+            margin-left: -400%;
+        }
             .skills {
-                width: 100%;
+                width: 117%;
                 margin: 80px auto;
                 padding: 20px;
                 color: #fff;
                 box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
             }
+            h3{
+                margin-right: 35px;
+                }
             footer{
                 width: 10%;        
     }
 }
     footer{
-        background-color: #01011a;
+        background-color:#333;
         height: 140px;
-        
+        justify-content: space-between;
     }
     .footer{
         display: flex;
-        padding: 23px 142px;
-        justify-content: space-evenly;
-
+        padding: 23px 402px;
+        justify-content: space-between;
+        margin-right: 210px;
     }
     .links ul{
         list-style: none;
@@ -170,6 +185,6 @@ margin: 5px;
     footer .footer-rights{
         text-align: center;
         color: gray;
-        padding: 12px 0;
+        padding: 12px 190px;
     
     }

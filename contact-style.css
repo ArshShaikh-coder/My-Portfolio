@@ -61,7 +61,7 @@ color: #fff;
     }
     .container .ContactInfo .box .text{
         display: flex;
-        margin-left: 20px;
+        margin-left:-5px;
         font-size: 16px;
         color: #fff;
         flex-direction: column;
@@ -129,7 +129,7 @@ color: #fff;
     .contact{
         padding: 50px;
         margin-bottom: -50px;
-       
+        margin-top: 50px;
 
     }
     .container{
@@ -142,9 +142,10 @@ color: #fff;
     }
     .container .ContactInfo,
     .contactForm{
-        width: 100%;
+        width: 90%;
     }
  }
+ 
  @media (max-width:2560px){
     .contact .content h2 {
         font-size: 36px;
@@ -156,15 +157,15 @@ color: #fff;
         margin-bottom: 50px;
     }
  }
- 
+
 footer h3{
 margin: 3px;
-margin-left: -230px;
+margin-left: 90px;
 }
 .footer{
     display: flex;
-    padding: 23px 402px;
-    justify-content: space-evenly;
+    margin-left: auto;
+    justify-content: center;
 }
 .links ul{
     list-style: none;
@@ -179,7 +180,6 @@ margin-left: -230px;
 }
 footer ul{
     list-style:none;
-    
 }
 /* .image-top{
     margin: -3px;
@@ -237,7 +237,13 @@ height: 140px;
  }
   
  
-@media screen and (max-width:768px) {
+@media screen and (max-width:998px) {
+    .contact{
+        padding: 50px;
+        margin-bottom: -50px;
+        margin-top: 50px;
+
+    }
     nav{
         flex-direction: column;
         }
@@ -245,8 +251,49 @@ height: 140px;
             background-color:#333;
             height: 140px;
             margin-right:50px;
-        }           
+        }     
+        .footer h3 {
+            margin: 3px;
+            margin-left: -81px;
+            margin-right: 50px;
+        }
+        footer .footer-rights{
+            margin-right: -95px;
+        }      
+        
 }
+@media(max-width:425px)    {
+    footer{
+        background-color:#333;
+        height: -140px;
+        margin-left:-150px;
+    
+    }
+    .contact{
+        padding: 50px;
+        margin-bottom: -50px;
+        margin-top: 50px;
+
+    }     
+    .footer h3 {
+        /* margin: 3px; */
+        margin-left: -1000px;
+        margin-right: -95px;
+    }
+    footer .footer-rights{
+        margin-right: -340px;
+    }      
+    .container .ContactInfo,
+    .contactForm{
+        width: 170%;
+    }
+    .footer{
+        display: flex;
+        margin-left: 162%;
+        justify-content: space-evenly;
+    }
+}
+
 nav{
     display: flex;
 justify-content: space-around;
